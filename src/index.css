@@ -24,21 +24,3 @@ main {
   width: 90%;
   margin: auto;
 }
-
-table {
-  width: 50%;
-  margin: auto;
-}
-
-td {
-  text-align: center;
-}
-
-tbody td:not(td:first-of-type):hover {
-  transform: scale(1.05);
-  opacity: 0.9;
-}
-
-tbody tr:nth-child(even) {
-  background: #3f74a9;
-}
